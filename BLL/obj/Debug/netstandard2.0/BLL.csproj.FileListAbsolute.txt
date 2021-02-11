@@ -1,0 +1,14 @@
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\bin\Debug\netstandard2.0\BLL.deps.json
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\bin\Debug\netstandard2.0\BLL.dll
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\bin\Debug\netstandard2.0\BLL.pdb
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\obj\Debug\netstandard2.0\BLL.csprojAssemblyReference.cache
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfoInputs.cache
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\obj\Debug\netstandard2.0\BLL.AssemblyInfo.cs
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\obj\Debug\netstandard2.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\obj\Debug\netstandard2.0\BLL.csproj.CopyComplete
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\obj\Debug\netstandard2.0\BLL.dll
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\obj\Debug\netstandard2.0\BLL.pdb
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\bin\Debug\netstandard2.0\UTILS.dll
+C:\Users\scztazae\DAM\DI\DI04_tarea\BLL\bin\Debug\netstandard2.0\UTILS.pdb

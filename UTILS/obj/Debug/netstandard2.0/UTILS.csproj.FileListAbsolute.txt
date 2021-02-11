@@ -1,0 +1,9 @@
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\bin\Debug\netstandard2.0\UTILS.deps.json
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\bin\Debug\netstandard2.0\UTILS.dll
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\bin\Debug\netstandard2.0\UTILS.pdb
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\obj\Debug\netstandard2.0\UTILS.csprojAssemblyReference.cache
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\obj\Debug\netstandard2.0\UTILS.AssemblyInfoInputs.cache
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\obj\Debug\netstandard2.0\UTILS.AssemblyInfo.cs
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\obj\Debug\netstandard2.0\UTILS.csproj.CoreCompileInputs.cache
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\obj\Debug\netstandard2.0\UTILS.dll
+C:\Users\scztazae\DAM\DI\DI04_tarea\UTILS\obj\Debug\netstandard2.0\UTILS.pdb
