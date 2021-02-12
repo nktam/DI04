@@ -15,11 +15,11 @@ namespace DAL
         {
             StreamReader rDatos = new StreamReader(File.OpenRead(fileDatos));
             List<string> lista = new List<string>();
-            var line = rDatos.ReadLine();
             
             while (!rDatos.EndOfStream)
-            {
-                var values = line.Split(',');
+            {   
+                string line = rDatos.ReadLine();
+                string[] values = line.Split(',');
                 if (values[0] == id)
                 {
                     foreach (var item in values)
@@ -27,13 +27,31 @@ namespace DAL
                         lista.Add(item);
                     }
                 }
-                line = rDatos.ReadLine();
+                if (rDatos.EndOfStream) break;
             }
-                return lista;
+            return lista;
+        }
+
+        public static List<string> GetComerciales()
+        {
+            StreamReader rDatos = new StreamReader(File.OpenRead(fileDatos));
+            List<string> lista = new List<string>();
+            
+            while (true)
+            {
+                string line = rDatos.ReadLine();
+                var values = line.Split(',');
+                if (values[1] != " nombre") 
+                {
+                    lista.Add(values[1]);
+                }
+                if (rDatos.EndOfStream) break;
+            }
+            return lista;
         }
 
 
-        public static List<DatosVO> FacturacionMes(string id)
+        public static List<DatosVO> FacturacionMes(string idcom, string idemp)
         {
             StreamReader rDatos = new StreamReader(File.OpenRead(fileFacturacion));
             List<DatosVO> lista = new List<DatosVO>();
@@ -45,6 +63,8 @@ namespace DAL
                 var line = rDatos.ReadLine();
                 var values = line.Split(',');
 
+                // si el priemr dato es numero_comercial
+                //estamos en la primera fila metemos los meses a la lista pie
                 if (values[0] == "numero_comercial")
                 {
                     for (int i = 1; i < values.Length; i++)
@@ -52,8 +72,10 @@ namespace DAL
                         listapie.Add(values[i]);
                     }
                 }
-
-                if (values[0] == id && values[1] == "1")
+                // si el primer dato es igual al id del comercial
+                // y el segundo dato igual al id de la empresa
+                // metemos los valores a la listavalorea
+                if (values[0] == idcom && values[1] == idemp)
                 {
                     for (int i = 1; i < values.Length; i++)
                     {
@@ -63,12 +85,36 @@ namespace DAL
                 if (rDatos.EndOfStream) break;
             }
 
+            // recorremos los array y anadimos a la lista los objetos DatosVO que estamos creando
             for (int i = 1; i < listapie.Count; i++)
             {
                 lista.Add(new DatosVO(listavalores[i], listapie[i]));
             }
 
             return lista;
+        }
+
+
+        public static int FacturacionAnual(string idcom, string idemp)
+        {
+            StreamReader rDatos = new StreamReader(File.OpenRead(fileFacturacion));
+            int total=0;
+
+            while (true)
+            {
+                var line = rDatos.ReadLine();
+                var values = line.Split(',');
+
+                if (values[0] == idcom && values[1] == idemp)
+                {
+                    for (int i = 1; i < values.Length; i++)
+                    {
+                        total += int.Parse(values[i]);
+                    }
+                }
+                if (rDatos.EndOfStream) break;
+            }
+            return total;
         }
 
     }
