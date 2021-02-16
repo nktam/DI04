@@ -12,7 +12,9 @@ C:\Users\scztazae\DAM\DI\DI04_tarea\UI\bin\Debug\BLL.dll
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\bin\Debug\DAL.dll
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\bin\Debug\BLL.pdb
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\bin\Debug\DAL.pdb
-C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.DatosComercial.resources
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.csproj.CopyComplete
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\bin\Debug\UTILS.dll
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\bin\Debug\UTILS.pdb
+C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.DatosComercialUC.resources
+C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.TotalEmpresasUC.resources
+C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.TotalVentasUC.resources

@@ -55,11 +55,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UserControls\DatosComercial.cs">
+    <Compile Include="UserControls\DatosComercialUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\DatosComercial.Designer.cs">
-      <DependentUpon>DatosComercial.cs</DependentUpon>
+    <Compile Include="UserControls\DatosComercialUC.Designer.cs">
+      <DependentUpon>DatosComercialUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TotalEmpresasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TotalEmpresasUC.Designer.cs">
+      <DependentUpon>TotalEmpresasUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TotalVentasUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TotalVentasUC.Designer.cs">
+      <DependentUpon>TotalVentasUC.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Forms\Formulario.resx">
       <DependentUpon>Formulario.cs</DependentUpon>
@@ -73,8 +85,14 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UserControls\DatosComercial.resx">
-      <DependentUpon>DatosComercial.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\DatosComercialUC.resx">
+      <DependentUpon>DatosComercialUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TotalEmpresasUC.resx">
+      <DependentUpon>TotalEmpresasUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TotalVentasUC.resx">
+      <DependentUpon>TotalVentasUC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

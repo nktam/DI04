@@ -9,12 +9,12 @@ namespace BLL
     public class ControladorBLL
     {
 
-        public static List<string> DatosComercial(string id)
+        public static ComercialVO DatosComercial(string id)
         {
             return LeerDatosDAL.DatosComercial(id);
         }
 
-        public static List<string> GetComerciales()
+        public static List<ComercialVO> GetComerciales()
         {
             return LeerDatosDAL.GetComerciales();
         }
@@ -24,9 +24,14 @@ namespace BLL
             return LeerDatosDAL.FacturacionAnual(idcom, idemp);
         }
 
-            public static List<DatosVO> FacturacionMes(string id, string idemp)
+        public static List<DatosVO> FacturacionMes(string id, string idemp)
         {
             return LeerDatosDAL.FacturacionMes(id, idemp);
+        }
+
+        public static List<DatosVO> FacturacionTrim(string id, string idemp)
+        {
+            return LeerDatosDAL.FacturacionTrim(id, idemp);
         }
     }
 }
