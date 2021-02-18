@@ -18,3 +18,4 @@ C:\Users\scztazae\DAM\DI\DI04_tarea\UI\bin\Debug\UTILS.pdb
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.DatosComercialUC.resources
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.TotalEmpresasUC.resources
 C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.TotalVentasUC.resources
+C:\Users\scztazae\DAM\DI\DI04_tarea\UI\obj\Debug\UI.UserControls.GraficosUC.resources

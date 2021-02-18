@@ -61,6 +61,12 @@
     <Compile Include="UserControls\DatosComercialUC.Designer.cs">
       <DependentUpon>DatosComercialUC.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\GraficosUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\GraficosUC.Designer.cs">
+      <DependentUpon>GraficosUC.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\TotalEmpresasUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -87,6 +93,9 @@
     </Compile>
     <EmbeddedResource Include="UserControls\DatosComercialUC.resx">
       <DependentUpon>DatosComercialUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\GraficosUC.resx">
+      <DependentUpon>GraficosUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\TotalEmpresasUC.resx">
       <DependentUpon>TotalEmpresasUC.cs</DependentUpon>
